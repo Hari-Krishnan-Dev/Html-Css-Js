@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="main.html">
+        <fieldset>
+            <legend>Personal details</legend>
+            
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" placeholder="First Name" required minlength="3">
+            <br><br>
+            
+            <label for="middle_name">Middle Name</label>
+            <input type="text" name="middle_name" id="middle_name" placeholder="Middle Name">
+            <br><br>
+            
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name" required minlength="3">
+            <br><br>
+            
+            <label for="course">Course</label>
+            <select name="course" id="course" required>
+                <option value="" selected disabled hidden>select</option>
+                <option value="BE">BE</option>
+                <option value="MBA">MBA</option>
+                <option value="BSC">BSC</option>
+                <option value="B.ed">B.ed</option>
+                <option value="BCA">BCA</option>
+            </select>
+            <br><br>
+            
+            <label>Gender</label>
+            <br>
+            <input type="radio" name="gender" id="gender_male" value="male" required>
+            <label for="gender_male">Male</label>
+            <br>
+            <input type="radio" name="gender" id="gender_female" value="female" required>
+            <label for="gender_female">Female</label>
+            <br>
+            <input type="radio" name="gender" id="gender_other" value="other" required>
+            <label for="gender_other">Other</label>
+            <br><br>
+            
+            <label for="DOB">DOB</label>
+            <input type="datetime-local" name="DOB" id="DOB" required>
+            <br>
+        </fieldset>
+    </form>
+</body>
+</html>
