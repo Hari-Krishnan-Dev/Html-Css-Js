@@ -9,45 +9,72 @@
     <form action="main.html">
         <fieldset>
             <legend>Personal details</legend>
-            
             <label for="first_name">First Name</label>
             <input type="text" name="first_name" id="first_name" placeholder="First Name" required minlength="3">
-            <br><br>
-            
+            <br>
+            <br>
             <label for="middle_name">Middle Name</label>
             <input type="text" name="middle_name" id="middle_name" placeholder="Middle Name">
-            <br><br>
-            
+            <br>
+            <br>
             <label for="last_name">Last Name</label>
-            <input type="text" name="last_name" id="last_name" placeholder="Last Name" required minlength="3">
-            <br><br>
-            
+            <input type="text" name="last_name" id="last_name" placeholder="Last Name" required minlength="3">  
+            <br>
+            <br>
             <label for="course">Course</label>
             <select name="course" id="course" required>
-                <option value="" selected disabled hidden>select</option>
+                <option selected hidden label="select"></option>
                 <option value="BE">BE</option>
                 <option value="MBA">MBA</option>
                 <option value="BSC">BSC</option>
                 <option value="B.ed">B.ed</option>
                 <option value="BCA">BCA</option>
             </select>
-            <br><br>
-            
+            <br>
+            <br>
             <label>Gender</label>
             <br>
-            <input type="radio" name="gender" id="gender_male" value="male" required>
+            <input type="radio" name="gender" id="gender_male" value="male">
             <label for="gender_male">Male</label>
             <br>
-            <input type="radio" name="gender" id="gender_female" value="female" required>
+            <input type="radio" name="gender" id="gender_female" value="female">
             <label for="gender_female">Female</label>
             <br>
-            <input type="radio" name="gender" id="gender_other" value="other" required>
+            <input type="radio" name="gender" id="gender_other" value="other">
             <label for="gender_other">Other</label>
-            <br><br>
-            
-            <label for="DOB">DOB</label>
-            <input type="datetime-local" name="DOB" id="DOB" required>
             <br>
+            <br>
+            <label for="DOB">DOB</label>
+            <input type="datetime-local" name="DOB" id="DOB">
+            <br>
+            <label for="phone">Phone</label>
+            <input type="text" disabled value="+91" size="2">
+            <input type="number" name="phone" id="phone" required minlength="10">
+            <br>
+            <br>
+            <label for="address">Address</label>
+            <br>
+            <textarea name="address" id="address" cols="50" rows="4" required></textarea>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <br>
+            <label for="pwd">Password</label>
+            <input type="password" name="password" id="pwd" required minlength="8">
+            <br>
+            <br>
+            <label for="re-pwd">Retype Password</label>
+            <input type="password" name="retype-password" id="re-pwd" required minlength="8">
+            <br>
+            <br>
+            <input type="checkbox" name="terms" id="terms" required value="agreed">
+            <label for="terms">Agree to the terms and conditions</label>
+            <br>
+            <br>
+            <button type="reset">reset</button>
+            <button type="submit">Submit</button>
         </fieldset>
     </form>
 </body>
