@@ -5,7 +5,7 @@ Welcome to the **Resume-html** repository! 🎉 This project is hosted live and 
 ## 🚀 Live Demo
 
 Check out the live version of the project 
-|[**Here**](https://resume-html-6dc58gtzh-k-harikrishnan-08s-projects.vercel.app)|https://resume-html-6dc58gtzh-k-harikrishnan-08s-projects.vercel.app|
+|[**Here**](https://resume-html-nu.vercel.app/)|https://resume-html-nu.vercel.app|
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------|
 
 ## 🛠️ Technologies Used
