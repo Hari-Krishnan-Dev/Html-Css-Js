@@ -14,7 +14,7 @@ Explore a treasure trove of projects crafted with the magic of **HTML, CSS, and 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/k-harikrishnan-08/Html-Css-Js.git
+   git clone https://github.com/Hari-Krishnan-Dev/Html-Css-Js.git
    cd html-css-js
 
 ### happy coding 😊
